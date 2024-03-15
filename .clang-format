@@ -1,15 +1,14 @@
 ---
-BasedOnStyle: Microsoft
+BasedOnStyle: LLVM
 IndentWidth: 4
-ColumnLimit: 100
-AccessModifierOffset: -4
+ColumnLimit: 120
+NamespaceIndentation: None
 BreakBeforeBraces: Attach
 IndentCaseLabels: false
-BinPackArguments: false
+AccessModifierOffset: -4
 BinPackParameters: false
-AllowAllParametersOfDeclarationOnNextLine: true
-BreakConstructorInitializers: AfterColon
-PackConstructorInitializers: NextLine
-AllowAllArgumentsOnNextLine: true
-# InsertTrailingCommas: true
-NamespaceIndentation: None
+BinPackArguments: false
+AllowAllArgumentsOnNextLine: false
+AllowAllParametersOfDeclarationOnNextLine: false
+AllowAllConstructorInitializersOnNextLine: false
+AlignAfterOpenBracket: true
